@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+body {
+	height: 100vh;
+	scroll-behavior: smooth;
+
+	background-color: #e3e4da;
+	font-family: 'Poppins', sans-serif;
+	transition: all ease 0.1s;
+	-webkit-transition: all ease 0.1s;
+	-moz-transition: all ease 0.1s;
+	-ms-transition: all ease 0.1s;
+	-o-transition: all ease 0.1s;
+}
+
+.rectangle {
+	margin: 0 auto;
+	background-color: #fff;
+	width: 431px;
+	height: 699px;
+
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+.content {
+	width: 80%;
+	margin: 0 auto;
+	line-height: 1.5rem;
+}
+.title {
+	font-size: 1.8rem;
+	color: #3f3e68;
+	padding-top: 5rem;
+	margin-bottom: 25px;
+}
+.input__1 {
+	display: flex;
+	flex-direction: column;
+}
+label {
+	color: #3f3e68;
+	font-size: 1rem;
+	margin-bottom: 5px;
+}
+input {
+	outline: none;
+
+	padding-left: 20px;
+	border-radius: 5px;
+	border: 1px solid #a7a6c3;
+
+	background-color: #e3e4da;
+
+	width: 311px;
+	height: 55px;
+	font-size: 1.5rem;
+	color: #3f3e68;
+	margin-bottom: 20px;
+}
+input::placeholder {
+	color: #3f3e68;
+	font-size: 1.2rem;
+}
+label[for='checkbox'] {
+	font-size: 1;
+	margin-left: -4px;
+}
+input[type='checkbox'] {
+	width: 50px;
+	height: 30px;
+	position: relative;
+	top: 8px;
+	margin-left: -10px;
+}
+
+button {
+	border: none;
+	outline: none;
+	background-color: #3f3e68;
+	width: 311px;
+	height: 68px;
+	margin-top: 2rem;
+}
+button:active {
+	position: relative;
+	top: 2px;
+	transition: position ease-in-out 0.1s;
+	transform: translate(0.8px);
+	-webkit-transform: translate(0.8px);
+	-moz-transform: translate(0.8px);
+	-ms-transform: translate(0.8px);
+	-o-transform: translate(0.8px);
+	-webkit-transition: position ease-in-out 0.1s;
+	-moz-transition: position ease-in-out 0.1s;
+	-ms-transition: position ease-in-out 0.1s;
+	-o-transition: position ease-in-out 0.1s;
+}
+span {
+	color: #fff;
+	font-size: 1.1rem;
+}
+p {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4rem;
+	text-decoration: underline;
+}
